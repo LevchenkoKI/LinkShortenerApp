@@ -1,0 +1,28 @@
+div.form
+{
+    display: block;
+    text-align: center;
+}
+
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin: 15px; 
+}
+
+.header {
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.spinner {
+    margin: auto;
+}
+
+.maxWidth {
+    width: 100%;
+}

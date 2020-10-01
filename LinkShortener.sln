@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkShortenerCore", "..\newl\LinkShortenerCore\LinkShortenerCore.csproj", "{75DCE877-1C2A-4B57-9BE2-6A5E940DC8F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkShortenerData", "..\newl\LinkShortenerData\LinkShortenerData.csproj", "{CFA49466-5B2A-467C-8C04-A58B3C6D5B6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkShortenerApi", "LinkShortenerApi\LinkShortenerApi.csproj", "{78486F16-3C8B-4F23-8A36-D1F095313DA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75DCE877-1C2A-4B57-9BE2-6A5E940DC8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DCE877-1C2A-4B57-9BE2-6A5E940DC8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DCE877-1C2A-4B57-9BE2-6A5E940DC8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DCE877-1C2A-4B57-9BE2-6A5E940DC8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFA49466-5B2A-467C-8C04-A58B3C6D5B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA49466-5B2A-467C-8C04-A58B3C6D5B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA49466-5B2A-467C-8C04-A58B3C6D5B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA49466-5B2A-467C-8C04-A58B3C6D5B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78486F16-3C8B-4F23-8A36-D1F095313DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78486F16-3C8B-4F23-8A36-D1F095313DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78486F16-3C8B-4F23-8A36-D1F095313DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78486F16-3C8B-4F23-8A36-D1F095313DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {853CF66F-1E35-4AD4-AF1D-089687E4737D}
+	EndGlobalSection
+EndGlobal

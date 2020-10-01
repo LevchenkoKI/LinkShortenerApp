@@ -1,0 +1,23 @@
+<div class="form">
+    <div class="header">
+        <h3>Сокращатель ссылок</h3>
+    </div>
+    <form (ngSubmit)="generateShortLink()" style="width: 80%">
+        <div *ngIf="!loading && !cutLink" >
+            <mat-form-field class="maxWidth">
+                <input matInput [formControl]="linkFormControl" placeholder="Полная ссылка" />
+                <mat-error *ngIf="linkFormControl.invalid && (linkFormControl.dirty || linkFormControl.touched)">
+                    Пожалуйста, введите сюда корректный адрес страницы
+                </mat-error>
+            </mat-form-field>
+            <button mat-raised-button [disabled]="linkFormControl.invalid">Сократить ссылку</button>
+        </div>
+        <div>
+            <mat-spinner *ngIf="loading && !cutLink" class="spinner"></mat-spinner>
+            <mat-form-field *ngIf="cutLink"class="maxWidth">
+                <mat-label>Сгенерированная ссылка</mat-label>
+                <input matInput disabled [value]="cutLink" />
+            </mat-form-field>
+        </div>
+    </form>
+</div>
